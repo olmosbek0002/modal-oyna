@@ -33,6 +33,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #DEE5ED;
 }
 header .item {
   width: 100%;
@@ -79,4 +80,185 @@ header .item .order {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.5px;
+}
+
+main {
+  width: 100%;
+  max-width: 770px;
+  height: 445px;
+  margin-top: 120px;
+}
+main .wrapper {
+  width: 100%;
+  max-width: 770px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+main .wrapper h2 {
+  color: #8CA2C0;
+  color-font-family: DM Sans;
+  color-font-size: 28px;
+  color-font-weight: 500;
+  color-line-height: 32px;
+  color-text-align: center;
+}
+main .wrapper h1 {
+  color: #486284;
+  font-family: DM Sans;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+main .wrapper p {
+  color: #8CA2C0;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+main .wrapper .buttons {
+  width: 244px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .wrapper .buttons .btn {
+  width: 122px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #486284;
+  border-radius: 50px;
+  border: 1px 0px 0px 0px;
+  border: 0;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+main .wrapper .buttons .explore {
+  width: 98px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50px;
+  border: 1px solid #486284;
+  color: #486284;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+main .list {
+  width: 100%;
+  max-width: 770px;
+  row-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+main .list h2 {
+  font-family: DM Sans;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.150000006px;
+  text-align: center;
+  color: #9CB0C9;
+}
+main .list nav {
+  width: 100%;
+  max-width: 645px;
+}
+main .list nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(9, 11, 14, 0.541);
+  opacity: 1;
+  visibility: visible;
+}
+.modal .div-modal {
+  width: 253px;
+  height: 113px;
+  background-color: #fff;
+  padding: 15px 5px;
+  transition: 0.5s;
+}
+.modal .div-modal .tiytl {
+  width: 100%;
+  height: 10px;
+  display: flex;
+  padding: 0px 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal .div-modal .tiytl button {
+  width: 15px;
+  height: 15px;
+  border: 0;
+  background-color: transparent;
+}
+.modal .div-modal .tiytl h3 {
+  font-size: 15px;
+}
+.modal .div-modal p {
+  olor: rgba(140, 162, 192, 0) 0;
+  font-family: DM Sans;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding: 15px 0px;
+}
+.modal .div-modal .buttons {
+  width: 100%;
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+.modal .div-modal .buttons button {
+  flex-grow: 1;
+}
+.modal .div-modal .buttons .deny {
+  border: 1px solid red;
+  background-color: transparent;
+  color: red;
+}
+.modal .div-modal .buttons .confirm {
+  background-color: blue;
+  color: #fff;
+  border: 0;
+}
+
+.is-active {
+  opacity: 0;
+  visibility: hidden;
 }/*# sourceMappingURL=style.css.map */

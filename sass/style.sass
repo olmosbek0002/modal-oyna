@@ -25,6 +25,7 @@ header
     display: flex
     justify-content: space-between
     align-items: center
+    border-bottom: 1px solid #DEE5ED
     .item
         width: 100%
         max-width: 442px
@@ -66,7 +67,166 @@ header
             font-weight: 400
             line-height: 24px
             letter-spacing: 0.5px
-            
+main
+    width: 100%
+    max-width: 770px
+    height: 445px
+    margin-top: 120px
+    .wrapper
+        width: 100%
+        max-width: 770px
+        height: 300px
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: space-between
+        h2
+           color: #8CA2C0
+            font-family: DM Sans
+            font-size: 28px
+            font-weight: 500
+            line-height: 32px
+            text-align: center
+        h1
+            color: #486284
+            font-family: DM Sans
+            font-size: 60px
+            font-weight: 700
+            line-height: 76px
+            letter-spacing: 0.5px
+            text-align: center
+        p
+            color: #8CA2C0
+            font-family: DM Sans
+            font-size: 20px
+            font-weight: 400
+            line-height: 32px
+            letter-spacing: 0.5px
+            text-align: center
+        .buttons
+            width: 244px 
+            height: 48px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            .btn
+                width: 122px
+                height: 48px
+                display: flex
+                justify-content: center
+                align-items: center
+                background-color: #486284
+                border-radius: 50px
+                border: 1px 0px 0px 0px
+                border: 0
+                color: #fff
+                font-family: DM Sans
+                font-size: 16px
+                font-weight: 400
+                line-height: 24px
+                letter-spacing: 0.5px
+            .explore
+                width: 98px
+                height: 48px
+                display: flex
+                justify-content: center
+                align-items: center
+                background-color: #fff
+                border-radius: 50px
+                border: 1px solid #486284
+                color:#486284
+                font-family: DM Sans
+                font-size: 16px
+                font-weight: 400
+                line-height: 24px
+                letter-spacing: 0.5px
+    .list
+        width: 100%
+        max-width: 770px
+        row-gap: 20px
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+    
+        margin-top: 60px
+        h2
+            font-family: DM Sans
+            font-size: 21px
+            font-weight: 500
+            line-height: 22px
+            letter-spacing: 0.15000000596046448px
+            text-align: center
+            color: #9CB0C9
+        nav
+            width: 100%
+            max-width: 645px  
+            ul
+                width: 100%
+                display: flex
+                justify-content: space-between
+                align-items: center  
+.modal
+    position: fixed
+    width: 100%
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: rgba(9, 11, 14, 0.541) 
+    
+    opacity: 1
+    visibility: visible
+    
+    // opacity: 50%
+    .div-modal
+        width: 253px
+        height: 113px
+        background-color: #fff
+        padding: 15px 5px
+        transition: 0.5s
+        
+        
+        .tiytl
+            width: 100%
+            height: 10px
+            display: flex
+            padding: 0px 10px
+            justify-content: space-between
+            align-items: center
+            button
+                width: 15px
+                height: 15px
+                border: 0
+                background-color: transparent
+            h3
+                font-size: 15px
+        p
+            olor: #8ca2c00000
+            font-family: DM Sans
+            font-size: 8px
+            font-weight: 500
+            line-height: 10px
+            letter-spacing: 0.5px
+            text-align: center
+            padding: 15px 0px
+        .buttons
+            width: 100%
+            display: flex
+            column-gap: 15px
+            button
+                flex-grow: 1
+            .deny
+                border: 1px solid red
+                background-color: transparent
+                color: red    
+            .confirm
+                background-color: blue
+                color: #fff
+                border: 0
 
+.is-active
+    opacity: 0
+    visibility: hidden
             
 
